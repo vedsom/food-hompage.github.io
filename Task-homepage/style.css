@@ -1,0 +1,307 @@
+
+.container-fluid img{
+  padding-left: 50px;
+  height: 50px;
+}
+.navbar-nav a{
+  font-family: 'Poppins',sans-serif;
+  font-weight: 500;
+  
+}
+.navbar-nav{
+  margin-left: auto;
+  padding-right: 30px;
+}
+.navbar-nav button{
+  font-weight: 500;
+  border-radius: 15px;
+}
+.img-cont h5{
+  color: #80C58C;
+  font-family: 'Poppins', sans-serif;
+  font-weight:bold;
+}
+.img-cont h1{
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 144px;
+}
+.Img-1 {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.Img-1 img {
+  width: 100%;
+ /* Set a maximum width for the image */
+  height: auto;
+}
+
+.img-cont {
+  position: absolute;
+  top: 50%;
+  left: 5%; /* Adjust the left value to position the text as needed */
+  transform: translateY(-50%);
+  color: white; /* Set text color to white */
+  max-width: 90%; /* Set a maximum width for the text container */
+}
+.img-cont h5,.img-cont h1,.img-cont p {
+            margin: 0;
+        }
+.order-btn{
+  background-color: #80C58C;
+  color: white;
+  font-weight: bold;
+  border-radius: 15px;
+}
+#plans{
+  padding:4% 15% ;
+}
+.plan-head{
+  text-align: center;
+  font-weight: 700;
+}
+.plan-head span{
+  color: #80C58C;
+}
+.card-body h5{
+  font-weight: 700;
+}
+.card-body h6{
+  text-decoration: line-through;
+  color: grey;
+}
+.card-body h3{
+  color: #68A17E;
+}
+.card-body span{
+  color: #80C58C;
+  background-color: #FDF3C0;
+  font-size: 10px;
+  padding: 2px 1px 1px 1px;
+}
+.custom-card{
+  border: 2px solid #80C58C;
+}
+.select-card{
+  background-color: #75A373;
+}
+/*Contact section*/
+.image-container {
+  position: relative;
+  width: 100%;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(60, 109, 90, 0.8); /* Green color with 50% opacity */
+}
+.contact-details {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Adjust the second value to increase or decrease vertical space */
+  color: #fff; /* Text color */
+  max-width: 80%;
+  max-height: 80%;
+  
+}
+.part-2 h5,h6{
+  font-size: 13px;
+}
+
+.part-2 i{
+  color: #FDF3C0;
+}
+.part-2 img{
+  height: 120px;
+  width: 120px;
+  
+}
+.col-4.part-2{
+  text-align: center;
+}
+.col-4.part-2 img {
+  display: block;
+  margin: 0 auto; /* Center-align the image */
+}
+.part-3 h5{
+  font-size: 13px;
+}
+.part-3 h3{
+  font-size: 19px;
+}
+.part-1 h3{
+  font-size: 19px;
+}
+/* cards section*/
+#food-types{
+  margin-top: 10px;
+}
+.cards{
+  position: relative;
+  display: flex;
+  align-items: center;
+  
+}
+.cards img{
+  width: 100%;
+  height: auto;
+}
+.food-cont{
+  position: absolute;
+  top: 90%;
+  left: 5%; /* Adjust the left value to position the text as needed */
+  transform: translateY(-50%);
+  color: white; /* Set text color to white */
+  max-width: 90%; /* Set a maximum width for the text container */
+}
+/* features section*/
+#features{
+  padding-top: 10px;
+}
+#features {
+  position: relative;
+}
+
+#features img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 10px; /* Add padding to the container */
+  position: relative;
+  top: -80px;
+}
+
+.col-2 {
+  width: calc(20% - 16px); /* Adjust the width for 4 columns with spacing in between */
+  margin-bottom: 20px; /* Adjust the margin for spacing between columns */
+  box-sizing: border-box;
+}
+
+.box {
+  height: 93%;
+  background-color: #FDF3C0;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 10px; /* Adjust the margin for spacing between boxes */
+}
+
+.box img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.box-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.box-content {
+  color: #333; /* Text color */
+  font-weight: 500;
+}
+
+.box-content h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.box-content p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+/*testimonial section*/
+.review-box {
+  position: relative;
+  background-color: #FDF3C0;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 20px;
+  border: 1px solid #ddd; /* Optional: Add a border for better visibility */
+  border-radius: 8%;
+}
+
+.quote {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #333;
+}
+.quote img{
+  height: 25px;
+}
+
+.rating {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 18px;
+  color: #FF9E2A;
+}
+
+.content {
+  margin-top: 40px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+.testi-name{
+  text-align: center;
+  font-weight: 800;
+  padding-bottom: 10px;
+}
+.testi-slide img{
+  display: block;
+  margin: 0 auto;
+  height: 14px;
+  
+}
+#testimonials{
+  padding-bottom: 4%;
+}
+.random-image {
+  position: absolute;
+  border: 1px solid #ccc;
+}
+.img-1{
+  padding-left: 50%;
+}
+.img-2{
+  float: right;
+}
+.img-3{
+  padding-left: 40px;
+}
+.img-4{
+  float: right;
+  padding-right: 10px;
+}
+.img-5{
+  padding-left: 95px;
+}
+.img-6{
+  padding-left: 213px;
+}
+.img-7{
+  padding-left: 10%;
+}
